@@ -33,7 +33,7 @@ function App() {
       } else {
         alert("Error from AI server: " + data.message);
       }
-    } catch (error) {
+    } catch {
       alert("Failed to connect to the backend. Is your Python Flask server running on port 5000?");
     }
     
